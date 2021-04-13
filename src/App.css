@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+  background: url("https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: black;
+}
+
+.titrefilm {
+  color: black;
+  font-size: 150px;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 5px;
+  font-style: italic;
+}
+.btnadd {
+  color: white;
+  size: 30px;
+  font-style: italic;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 5px;
+  cursor: pointer;
+  display: inline-block;
+  background-color: #7b38d8;
+  border-radius: 10px;
+  border: 4px double #cccccc;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.movicard {
+  margin: 33%;
+}
+.carousl {
+  position: fixed;
+  top: 0;
+  right: 50;
+  bottom: 0;
+  left: 50;
+  display: flex;
+  overflow-x: scroll;
+  counter-reset: item;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  position: relative;
+  flex: 0 100%;
+  width: 90%;
+  height: 70%;
+
+  background-color: #f99;
+  counter-increment: item;
+  content: counter(item);
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate3d(-50%, -34%, 100px);
+  color: #fff;
+  font-size: 2em;
+}
+.tittle {
+  font-style: italic;
+  background: none;
+  color: blanchedalmond;
+}
+.affichage {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  background: none;
+  margin-right: 15%;
+}
+.affich {
+  margin-top: 20%;
+}
+.aff {
+  margin: 10%;
+  padding-top: 10%;
+}
+.nav {
+  font-style: italic;
+  color: white;
+  font-size: 20px;
+  font-size: x-large;
+  border-color: black;
+  border-style: double;
+}
+.listaffichage {
+  font-style: italic;
+  font-weight: normal;
+  background: none;
+  color: blueviolet;
+}
+.inpu {
+  width: 80%;
+  padding: 15px 22px;
+  margin: 10px 5px;
+  box-sizing: border-box;
+  border: 4px solid #8842d5;
+  border-radius: 5px;
+}
+.bd {
+  background: none;
+}
